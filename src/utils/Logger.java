@@ -1,9 +1,5 @@
 package utils;
 
-/**
- * @author Roberto Casadei
- */
-
 public class Logger {
     public static void logPrintString(String s){
         System.out.format("[Print] %s\n",s);

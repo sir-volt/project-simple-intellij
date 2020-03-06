@@ -1,9 +1,5 @@
 package model;
 
-/**
- * @author Roberto Casadei
- */
-
 public class Person {
     private String name;
     private int age;
@@ -13,7 +9,21 @@ public class Person {
         this.age = age;
     }
 
-    @Override public String toString(){
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+
+    public void updateAge(int newAge) {
+        this.age = newAge;
+    }
+
+    @Override
+    public String toString(){
         return this.name;
     }
 }
